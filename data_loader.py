@@ -12,7 +12,7 @@ import torch
 from torch.utils.data import Dataset
 
 # ─── Paths ──────────────────────────────────────────────────────────────────
-DATA_ROOT = "g:/speech_imagery/karaone/p/spoclab/users/szhao/EEG/data/MM05"
+DATA_ROOT = "./karaone/p/spoclab/users/szhao/EEG/data/MM05"
 EEG_FILE  = os.path.join(DATA_ROOT, "Acquisition 232 Data.set")   # ICA 전처리 완료본
 EPOCH_MAT = os.path.join(DATA_ROOT, "epoch_inds.mat")
 KINECT_DIR= os.path.join(DATA_ROOT, "kinect_data")
