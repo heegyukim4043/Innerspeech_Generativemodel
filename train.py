@@ -48,7 +48,7 @@ CFG = dict(
     # Architecture: "transformer_s4" or "mamba"
     arch           = "mamba",
     # Paths
-    save_dir       = "/checkpoints",
+    save_dir       = "./checkpoints",
     log_interval   = 10,
 )
 
